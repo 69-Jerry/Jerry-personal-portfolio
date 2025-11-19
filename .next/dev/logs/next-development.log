@@ -1,0 +1,68 @@
+[00:00:01.195] Server  LOG      ✓ Ready in 862ms
+[00:00:13.988] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.709] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:14.709] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:14.709] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763510606289}
+[00:11:26.091] Server  LOG      ✓ Compiled in 39ms
+[00:20:53.236] Server  LOG      ✓ Compiled in 27ms
+[00:21:02.663] Server  LOG      ✓ Compiled in 20ms
+[00:21:06.267] Server  LOG      ✓ Compiled in 16ms
+[00:21:10.734] Server  LOG      ✓ Compiled in 13ms
+[00:21:14.586] Server  LOG      ✓ Compiled in 14ms
+[00:21:31.090] Server  LOG      ✓ Compiled in 14ms
+[00:21:44.178] Server  LOG      ✓ Compiled in 17ms
+[00:22:05.879] Server  LOG      ✓ Compiled in 15ms
+[00:22:08.942] Server  LOG      ✓ Compiled in 17ms
+[00:22:16.973] Server  LOG      ✓ Compiled in 12ms
+[00:22:21.985] Server  LOG      ✓ Compiled in 29ms
+[00:22:58.230] Server  LOG      ✓ Compiled in 59ms
+[00:23:24.206] Server  LOG      ✓ Compiled in 16ms
+[00:23:32.204] Server  LOG      ✓ Compiled in 20ms
+[00:23:39.796] Server  LOG      ✓ Compiled in 13ms
+[00:23:55.987] Server  LOG      ✓ Compiled in 14ms
+[00:24:02.688] Server  LOG      ✓ Compiled in 15ms
+[00:25:22.552] Server  LOG      ✓ Compiled in 88ms
+[00:25:23.572] Browser ERROR   uncaughtError: ReferenceError: Mail is not defined
+[00:27:23.013] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:27:23.061] Server  LOG      ✓ Compiled in 28ms
+[00:27:23.299] Server  ERROR    ⨯ ReferenceError: Mail is not defined
+[00:27:23.499] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:25.535] Browser ERROR   uncaughtError: ReferenceError: Mail is not defined
+[00:27:26.331] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:27:26.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:27.572] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:27:27.572] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:27:27.572] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763512238667}
+[00:28:30.318] Server  LOG      ✓ Compiled in 22ms
+[00:28:40.941] Server  LOG      ✓ Compiled in 21ms
+[00:28:48.750] Server  LOG      ✓ Compiled in 26ms
+[00:28:57.627] Server  LOG      ✓ Compiled in 14ms
+[00:28:58.847] Server  LOG      ✓ Compiled in 15ms
+[00:29:01.081] Server  LOG      ✓ Compiled in 15ms
+[00:29:05.319] Server  LOG      ✓ Compiled in 40ms
+[00:29:14.577] Server  LOG      ✓ Compiled in 41ms
+[00:29:15.572] Browser ERROR   ./components/footer.tsx:91:16
+Parsing ecmascript source code failed
+  89 |             
+  90 |             
+> 91 |             <p <Mail className="w-5 h-5 text-yellow-500" /> className="text-sm font-semibold text-accent mb-2">Contact</p>
+     |                ^
+  92 |               <a
+  93 |                 href="mailto:wilsonjerry182@gmail.com"
+  94 |                 className="text-gray-300 hover:text-white"
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/footer.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/footer.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:30:01.030] Server  LOG      ✓ Compiled in 20ms
+[00:30:10.778] Server  LOG      ✓ Compiled in 13ms
+[00:30:13.601] Server  LOG      ✓ Compiled in 16ms
