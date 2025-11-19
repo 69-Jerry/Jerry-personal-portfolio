@@ -101,7 +101,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-border pt-8 text-center text-sm text-foreground/60">
-          <p>&copy; {currentYear} React Developer. All rights reserved.</p>
+          <p>&copy; {currentYear} Jerry Buaka. All rights reserved.</p>
         </div>
       </div>
     </footer>

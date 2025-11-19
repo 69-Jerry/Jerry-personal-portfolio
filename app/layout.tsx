@@ -7,25 +7,25 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'React Developer Portfolio',
-  description: 'Showcase of React and TypeScript projects by a passionate full-stack developer',
-  generator: 'v0.app',
+  title: 'Jerry Wilson - React Developer & UI Enthusiast',
+  description: 'Portfolio of Jerry Wilson, a React developer specializing in building modern, accessible web applications with React and TypeScript.',
+  
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/code.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/code.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/code.png',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/code.png',
   },
 }
 
