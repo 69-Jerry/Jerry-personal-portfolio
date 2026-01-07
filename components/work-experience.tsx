@@ -1,4 +1,4 @@
-"use client";
+import { getTechIcon, getTechColor } from "./ui/tech-icon";
 
 interface Experience {
   company: string;
@@ -49,7 +49,6 @@ const experiences: Experience[] = [
       "Worked closely with UI/UX designers to transform wireframes into accessible, user-friendly designs.",
       "Ensured compliance with web standards and accessibility guidelines (WCAG).",
       "Participated in code reviews and contributed to a clean, scalable, and stable codebase.",
-
     ],
     technologies: [
       "React.js",
@@ -78,7 +77,15 @@ const experiences: Experience[] = [
       "Handled social media accounts, creating content and strategies to boost online presence and engagement.",
       "Coordinated marketing campaigns, resulting in increased customer inquiries and bookings.",
     ],
-    technologies: ["React", "JavaScript", "CSS", "HTML", "MySQL", "WordPress", "Figma"],
+    technologies: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "MySQL",
+      "WordPress",
+      "Figma",
+    ],
   },
   {
     company: "Bashalisha Consulting Services",
@@ -92,7 +99,15 @@ const experiences: Experience[] = [
       "Ensured website security by implementing best practices and regular updates.",
       "Worked closely with the marketing team to align web content with promotional strategies.",
     ],
-    technologies: ["React", "JavaScript", "CSS", "HTML", "MySQL", "WordPress", "Figma"],
+    technologies: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "MySQL",
+      "WordPress",
+      "Figma",
+    ],
   },
   {
     company: "Juberchie Enterprise",
@@ -106,7 +121,15 @@ const experiences: Experience[] = [
       "Optimized website performance, resulting in faster load times and improved user engagement.",
       "Integrated third-party services and APIs to enhance website capabilities and user experience.",
     ],
-    technologies: ["React", "JavaScript", "CSS", "HTML", "MySQL", "WordPress", "Figma"],
+    technologies: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "MySQL",
+      "WordPress",
+      "Figma",
+    ],
   },
 ];
 
@@ -134,14 +157,24 @@ export default function WorkExperience() {
               </ul>
 
               <div className="flex flex-wrap gap-2">
-                {exp.technologies.map((tech, idx) => (
-                  <span
-                    key={idx}
-                    className="text-xs bg-accent/10 text-accent px-3 py-1 rounded-full"
-                  >
-                    {tech}
-                  </span>
-                ))}
+                {exp.technologies.map((tech, idx) => {
+                  const Icon = getTechIcon(tech);
+                  const color = getTechColor(tech);
+                  return (
+                    <span
+                      key={idx}
+                      className="text-xs flex items-center gap-1.5 border border-primary/20 bg-primary/5 text-primary px-3 py-1 rounded-full hover:border-primary/50 transition-colors cursor-default"
+                      style={{
+                        color: color,
+                        borderColor: `${color}40`,
+                        backgroundColor: `${color}10`,
+                      }}
+                    >
+                      <Icon className="text-sm" />
+                      {tech}
+                    </span>
+                  );
+                })}
               </div>
             </div>
           ))}

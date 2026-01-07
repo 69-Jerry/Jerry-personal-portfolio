@@ -9,7 +9,7 @@ interface NavigationProps {
 }
 
 export default function Navigation({ activeSection, setActiveSection }: NavigationProps) {
-  const sections = ['about', 'education', 'projects', 'work', 'cv', 'skills', 'contact']
+  const sections = ['about', 'projects', 'work', 'cv', 'skills', 'contact']
 
   const handleSectionClick = (section: string) => {
     setActiveSection(section)
