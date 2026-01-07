@@ -10,7 +10,7 @@ interface FadeInProps {
   direction?: "up" | "down" | "left" | "right" | "none";
   fullWidth?: boolean;
   duration?: number;
-  // Add margin prop to control viewport trigger point
+  
   viewportMargin?: string;
 }
 
@@ -21,7 +21,7 @@ export default function FadeIn({
   direction = "up",
   fullWidth = false,
   duration = 0.5,
-  viewportMargin = "-100px", // Trigger animation 100px before element enters view
+  viewportMargin = "-100px", 
 }: FadeInProps) {
   const getInitial = () => {
     switch (direction) {
