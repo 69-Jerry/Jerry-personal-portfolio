@@ -9,7 +9,7 @@ const cvSections: CVSection[] = [
   {
     title: 'Education',
     items: [
-      'Software Engineering - IPMC University College (2020 - 2022)',
+      'Software Engineering - IPMC University College (2020 - 2023)',
       'TypeScript Professional Development - Udemy (2025)'
     ]
   },

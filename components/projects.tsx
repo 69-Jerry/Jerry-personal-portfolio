@@ -1,6 +1,14 @@
 "use client";
 
 const projects = [
+
+  {
+    title: "Corperate Website",
+    description:
+      "Website for a corporate company featuring courses, faculty profiles, and CRM to manage web contents and keep records of clients.",
+    tags: ["react", "tailwind", "typescript"],
+    link: "#",
+  },
   {
     title: "Car Rental & Real Estate Website",
     description:

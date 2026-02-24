@@ -10,6 +10,28 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    company: "Cybase Ghana",
+    position: "Software Engineer / Front-End Unit Lead – Remote",
+    duration: "Dec 2025 – Present",
+    description: [
+      "Lead the Front-End Unit, overseeing architecture, code quality, and delivery timelines for multiple web applications.",
+      "Design and develop scalable, responsive user interfaces using modern frameworks such as React, TypeScript, and Tailwind CSS.",
+      "Establish front-end standards, reusable component libraries, and best practices to ensure consistency across projects.",
+      "Collaborate closely with backend engineers, UI/UX designers, and product managers to translate business requirements into functional solutions.",
+      "Conduct code reviews, mentor junior developers, and drive continuous improvement within the front-end team.",
+      "Optimize application performance, accessibility, and cross-browser compatibility.",
+      "Manage sprint planning, task delegation, and progress tracking in an Agile development environment.",
+    ],
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Agile",
+      "Architecture",
+      "Leadership",
+    ],
+  },
+  {
     company: "Heavy Dealers Ltd",
     position: "Senior FrontEnd Developer",
     duration: "Jan, 2025 - Present",
