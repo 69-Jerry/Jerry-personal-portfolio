@@ -12,7 +12,7 @@ const projects = [
     title: "NGO Website",
     description: "website for an NGO Owned By Farida Mahama. It is a non-profit organization that focuses on empowering women and children in Ghana. Website was developed under CYBASE GHANA LTD",
     tags: ["react", "tailwind", "typescript"],
-    link: "https://serenitycommunity.org/",
+    link: "https://serenitycommunityclub.org/",
   },
   {
     title: "Management Website",
